@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+<!-- 本身网站问题-1，页面处理的问题-2 ， 可以处理0 -->
+<sites>
+	<site id="1">
+		<name>手机世界[中国]</name>
+		<homePage>http://search.3533.com/game</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro3533</pageProcessor>
+		<searchUrl>http://search.3533.com/game?keyword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="2">
+		<name>网易应用中心[中国]</name>
+		<homePage>http://m.163.com/android/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro163</pageProcessor>
+		<searchUrl>http://m.163.com/ajax/search/result/2/*#*#*#/sort_revelance-start_0.js</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>	
+		<validation>0</validation>
+	</site>
+
+	<site id="4">
+        <name>机客网[中国]</name>
+        <homePage>http://games.159.com/game.aspx</homePage>
+        <pageProcessor>com.appCrawler.pagePro.PagePro159</pageProcessor>
+        <searchUrl>http://games.159.com/ashx/Common.ashx?acttion=getgames_pager&amp;pageindex=0&amp;pagesize=200&amp;type=3001&amp;querystr=*#*#*#</searchUrl>
+        <method>GET</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>utf-8</pageEncoding>
+        <validation>0</validation>	
+    </site>
+
+	<site id="5">
+		<name>应用汇[中国]</name>
+		<homePage>http://www.appchina.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAppChina</pageProcessor>
+		<searchUrl>http://www.appchina.com/sou/*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="6">
+		<name>移动MM[中国]</name>
+		<homePage>http://mm.10086.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProMM10086</pageProcessor>
+		<searchUrl>http://mm.10086.cn/searchapp?st=0&amp;q=*#*#*#&amp;dt=android</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="8">
+		<name>手机乐园[中国]</name>
+		<homePage>http://game.shouji.com.cn/game/153148.html</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProMobilePhone</pageProcessor>
+		<searchUrl>http://soft.shouji.com.cn/sort/search.jsp?html=soft!%!%!%phone=100060!%!%!%inputname=soft!%!%!%softname=*#*#*#!%!%!%thsubmit=%E6%90%9C%E7%B4%A2</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="9"><!-- 搜索接口不可用 -->
+		<name>安卓中文网(tgbus)[中国]</name>
+		<homePage>http://android.tgbus.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProTgbus</pageProcessor>
+        <searchUrl>http://www.baidu.com/baidu?word=*#*#*#&amp;tn=bds&amp;cl=3&amp;si=a.tgbus.com&amp;ct=2097152</searchUrl>
+        <method>GET</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>utf-8</pageEncoding>
+        <validation>0</validation>	
+	</site>
+	<site id="10">
+		<name>安卓软件园(3gyu)[中国]</name>
+		<homePage>http://www.anzow.com/Software.shtml</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAnzow</pageProcessor>
+		<searchUrl>http://www.anzow.com/Search.shtml?stype=anzow&amp;q=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="12">
+		<name>游戏狗[中国]</name>
+		<homePage>http://android.gamedog.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProGameDog</pageProcessor>
+		<searchUrl>http://search.gamedog.cn/app/?keyword=*#*#*#&amp;platform=Android</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="13">
+		<name>起点下载[中国]</name>
+		<homePage>http://www.cncrk.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProCncrk</pageProcessor>
+        <searchUrl>http://zhannei.baidu.com/cse/search?q=*#*#*#&amp;entry=1&amp;s=5746876527562368484&amp;nsid=</searchUrl>
+        <method>GET</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>gb2312</pageEncoding>
+        <validation>0</validation>
+	</site>
+
+	<site id="14">
+		<name>手游网[中国]</name>
+		<homePage>http://a.shouyou.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProShouYou</pageProcessor>
+		<searchUrl>http://search.shouyou.com/online?keyword=*#*#*#&amp;type=1</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="15">
+		<name>安卓下载</name>
+		<homePage>http://apk.91.com/game</homePage><!-- http://play.91.com/android/Game/ -->
+		<pageProcessor>com.appCrawler.pagePro.Apk91</pageProcessor>
+		<searchUrl>http://apk.91.com/soft/android/search/1_5_0_0_*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="16">
+		<name>统一下载站[中国]</name>
+		<homePage>http://app.3987.com/app/android.html</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro3987</pageProcessor>
+        <searchUrl>http://www.3987.com/shouji/index.php?m=search&amp;c=index&amp;a=init&amp;typeid=2&amp;q=*#*#*#</searchUrl>
+        <method>GET</method>
+        <urlEncoding>gb2312</urlEncoding>
+        <pageEncoding>gb2312</pageEncoding>
+        <validation>0</validation>
+	</site>
+
+	<site id="17">
+		<name>开心手游[中国]</name>
+		<homePage>http://www.kaixinshouyou.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProKaixin</pageProcessor>
+        <searchUrl>http://www.kaixinshouyou.com/sou_youxi.asp</searchUrl>
+        <postPara>Keyword</postPara>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>utf-8</pageEncoding>
+        <validation>0</validation>
+	</site>
+
+	<site id="18">
+		<name>下载之家[中国]</name>
+		<homePage>http://www.downza.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProDownza</pageProcessor>
+		<searchUrl>http://www.downza.cn/search?k=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="19">
+		<name>天天手游[中国]</name>
+		<homePage>http://www.apkyx.com/android/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProApkyx</pageProcessor>
+		<searchUrl>http://www.apkyx.com/search/?key=*#*#*#&amp;searchType=game</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="20">
+		<name>乐商店[中国]</name>
+		<homePage>http://www.lenovomm.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProLenovomm</pageProcessor>
+		<searchUrl>http://www.lenovomm.com/search/index.html?q=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="21">
+		<name>百度[中国]</name>
+		<homePage>http://shouji.baidu.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProBaidu</pageProcessor>
+		<searchUrl>http://shouji.baidu.com/s?wd=*#*#*#&amp;data_type=app&amp;f=header_all%40input</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="22">
+		<name>机锋网</name>
+		<homePage>http://apk.gfan.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProgfanstore</pageProcessor>
+		<searchUrl>http://apk.gfan.com/search?q=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<!--下载链接不在详情页面-->
+	<site id="23">
+		<name>华军软件园[中国]</name>
+		<homePage>http://www.onlinedown.net/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProOnlineDown</pageProcessor>
+		<searchUrl>http://search.newhua.com/search_list.php?searchname=*#*#*#&amp;searchsid=6&amp;app=search&amp;controller=index&amp;action=search&amp;type=news</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<method>GET</method>
+		<validation>0</validation>
+	</site>
+
+	<site id="24">
+		<name>太平洋[中国]</name>
+		<homePage>http://dl.pconline.com.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProPconline</pageProcessor>
+		<searchUrl>http://ks.pconline.com.cn/download.shtml?q=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="25">
+		<name>手游天下[中国]</name>
+		<homePage>http://android.155.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro155</pageProcessor>
+		<!--  <searchUrl>http://android.155.cn/search.php?kw=*#*#*#&amp;index=soft</searchUrl>-->
+		<searchUrl>http://android.155.cn/search.php?kw=*#*#*#!%!%!%button=</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gbk</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="27">
+		<name>安卓乐园[中国]</name>
+		<homePage>http://www.520apk.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro520apk</pageProcessor>
+        <searchUrl>http://search.520apk.com/cse/search?q=*#*#*#&amp;s=17910776473296434043&amp;nsid=1</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="29">
+		<name>搜狗市场[中国]</name>
+		<homePage>http://app.sogou.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProSoGou</pageProcessor>
+		<searchUrl>http://app.sogou.com/search?title=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="30">
+		<name>安果网[中国]</name>
+		<homePage>http://www.91anguo.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAnGuo</pageProcessor>
+        <searchUrl>http://www.91anguo.com/e/search/index.php</searchUrl>
+        <postPara>keyboard</postPara>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>gb2312</pageEncoding>
+        <validation>0</validation>
+	</site>
+
+	<site id="31">
+		<name>西西软件园[中国]</name>
+		<homePage>http://www.cr173.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProCr173</pageProcessor>
+		<searchUrl>http://so.cr173.com/?keyword=*#*#*#&amp;searchType=youxi</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="32">
+        <name>7230手游网[中国]</name>
+        <homePage>http://www.7230.com/</homePage>
+        <pageProcessor>com.appCrawler.pagePro.PagePro7230</pageProcessor>
+        <searchUrl>http://www.7230.com/search.asp?keyword=*#*#*#</searchUrl>
+        <method>GET</method>
+        <urlEncoding>gb2312</urlEncoding>
+        <pageEncoding>gb2312</pageEncoding>
+        <validation>0</validation>
+    </site>
+
+	<site id="33">
+		<name>Cell11[美国]</name>
+		<homePage>http://www.cell11.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProCe1111</pageProcessor>
+		<searchUrl>http://www.cell11.com/android/?s=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="34">
+		<name>SlideME[美国]</name>
+		<homePage>http://slideme.org/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProSlideMe</pageProcessor>
+		<searchUrl>http://slideme.org/applications/*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+
+	<site id="35">
+		<name>软件下吧[中国]</name>
+		<homePage>http://www.7613.com/soft/14/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro7613</pageProcessor>
+        <searchUrl>http://www.7613.com/search.asp?keyword=*#*#*#</searchUrl>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>gb2312</pageEncoding>
+        <validation>0</validation>
+	</site>
+
+	<site id="36">
+		<name>百信手机网</name>
+		<homePage>http://www.958shop.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro958Shop</pageProcessor>
+		<searchUrl>http://www.958shop.com/apk/search.aspx?wd=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="37">
+		<name>易用汇[中国]</name>
+		<homePage>http://www.anzhuoapk.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAnZhuoApk</pageProcessor>
+		<searchUrl>http://www.anzhuoapk.com/search/*#*#*#-1/</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+   <site id="38">
+        <name>水果手游市场</name>
+        <homePage>http://a.shuiguo.com/</homePage>
+        <pageProcessor>com.appCrawler.pagePro.PageProShuiGuo</pageProcessor>
+        <searchUrl>http://s.shuiguo.com/*#*#*#_1_1.html</searchUrl>
+        <method>GET</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>utf-8</pageEncoding>
+        <validation>0</validation>
+    </site>
+    
+	<site id="39">
+		<name>木蚂蚁[中国]</name>
+		<homePage>http://www.mumayi.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProMumayi</pageProcessor>
+		<searchUrl>http://s.mumayi.com/index.php?q=*#*#*#&amp;typeid=0</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="40">
+		<name>豌豆荚官方[中国]</name>
+		<homePage>http://www.wandoujia.com/apps</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProWandoujia</pageProcessor>
+		<searchUrl>http://www.wandoujia.com/search?key=*#*#*#&amp;source=apps</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="42">
+		<name>七匣子[中国]</name>
+		<homePage>http://www.7xz.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro7xz</pageProcessor>
+		<searchUrl>http://www.7xz.com/ng/search_*#*#*#_0_0_rate_1.html</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	
+	<site id="44">
+		<name>华为应用市场</name>
+		<homePage>http://appstore.huawei.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProHuawei</pageProcessor>
+		<searchUrl>http://appstore.huawei.com/search/*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="45">
+		<name>安粉[中国]</name>
+		<homePage>http://www.appfun.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAnfun</pageProcessor>
+		<searchUrl>http://www.appfun.cn/search</searchUrl>
+		<postPara>apptitle</postPara>
+		<method>POST</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="46">
+		<name>hiapk[中国]</name>
+		<homePage>http://apk.hiapk.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProHiApk</pageProcessor>
+		<searchUrl>http://apk.hiapk.com/search?key=*#*#*#&amp;pid=0</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="47">
+		<name>安软[中国]</name>
+		<homePage>http://www.anruan.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAnruan</pageProcessor>
+		<searchUrl>http://www.anruan.com/search.php?t=soft&amp;keyword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<!-- 搜索接口不可用
+	<site id="48">
+		<name>idreamsky[中国]</name>
+		<homePage>http://www.idreamsky.com/games</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProIdreamsky</pageProcessor>
+        <searchUrl>http://www.baidu.com/baidu?tn=bds&amp;cl=3&amp;ct=2097152&amp;si=www.idreamsky.com&amp;word=*#*#*#</searchUrl>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>utf-8</pageEncoding>
+        <validation>0</validation>
+	</site>
+ 	-->
+
+	<site id="49">
+		<name>新浪手机软件[中国]</name>
+		<homePage>http://down.tech.sina.com.cn/list/8_1_1.html</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProSinaTech</pageProcessor>
+		<searchUrl>http://down.tech.sina.com.cn/3gsoft/iframelist.php?classid=0&amp;keyword=*#*#*#&amp;tag=&amp;osid=</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="50">
+		<name>265G安卓网[中国]</name>
+		<homePage>http://android.265g.com/soft/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro265g</pageProcessor>
+        <searchUrl>http://zhannei.baidu.com/cse/search?s=1307449979590049420&amp;entry=1&amp;ie=gbk&amp;q=*#*#*#</searchUrl>
+        <urlEncoding>gb2312</urlEncoding>
+        <pageEncoding>gb2312</pageEncoding>
+        <validation>0</validation>
+	</site>
+
+	<site id="51">
+		<name>PC6安卓网[中国]</name>
+		<homePage>http://az.pc6.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProPc6</pageProcessor>
+        <searchUrl>http://s.pc6.com/cse/search?q=*#*#*#!%!%!%entry=1!%!%!%s=12026392560237532321!%!%!%nsid=3!%!%!%</searchUrl>
+        <urlEncoding>gb2312</urlEncoding>
+        <pageEncoding>gb2312</pageEncoding>
+        <validation>0</validation>
+	</site>
+
+	<site id="52">
+		<name>开奇商店[中国]</name>
+		<homePage>http://www.kaiqi.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProKaiqi</pageProcessor>
+		<searchUrl>http://www.kaiqi.com/</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="53">
+		<name>魅族溜[中国]</name>
+		<homePage>http://m.mz6.net/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProMz6</pageProcessor>
+		<searchUrl>http://m.mz6.net/search/?keyword=*#*#*#&amp;dosumbit=1&amp;m=wap&amp;a=search&amp;modelid=14</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="55">
+		<name>安趣市场[中国]</name>
+		<homePage>http://www.anqu.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAnqu</pageProcessor>
+		<searchUrl>http://api.anqu.com/search/index/?keyword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="57">
+		<name>5253手游网[中国]</name>
+		<homePage>http://www.5253.com/article/10451.html</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro5253</pageProcessor>
+		<searchUrl>http://www.5253.com/search.html?searchKey=*#*#*#</searchUrl><!-- http://www.5253.com/gameList/1-0-0-0-0-0-0-0.html?keyword= -->
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="58">
+		<name>97sky[中国]</name>
+		<homePage>http://www.97sky.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro97sky</pageProcessor>
+		<searchUrl>http://www.97sky.cn/search?type=0!%!%!%keyword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="59">
+		<name>应用宝[中国]</name><!-- 腾讯 -->
+		<homePage>http://android.myapp.com/myapp/index.htm</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProMyapp</pageProcessor>
+		<searchUrl>http://android.myapp.com/myapp/searchAjax.htm?kw=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="60">
+		<name>安卓在线[中国]</name>
+		<homePage>http://www.apkye.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProApkye</pageProcessor>
+		<searchUrl>http://www.apkye.com/?s=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="62">
+		<name>安卓中国[中国]</name>
+		<homePage>http://app.cnmo.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProandroidcnmo</pageProcessor>
+		<searchUrl>http://app.cnmo.com/searchAll.php?s=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="63">
+		<name>邀友网[中国]</name>
+		<homePage>http://www.aouu.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAouu</pageProcessor>
+		<searchUrl>http://www.aouu.com/</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="64">
+		<name>宝软[中国]</name>
+		<homePage>http://www.baoruan.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProBaoRuan</pageProcessor>
+		<searchUrl>http://www.baoruan.com/</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="65"><!-- get提交 -->
+		<name>4355</name>
+		<homePage>http://www.4355.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro4355</pageProcessor>
+		<searchUrl>http://www.4355.com/e/search/?searchget=1!%!%!%tbname=download!%!%!%tempid=1!%!%!%show=title,smalltext!%!%!%keyboard=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gbk</urlEncoding>
+		<pageEncoding>gbk</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="156"><!-- get提交 -->
+		<name>云端</name>
+		<homePage>http://www.17et.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro17et</pageProcessor>
+		<searchUrl>http://www.17et.com</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>urf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="160"><!-- get提交 -->
+		<name>刷机网</name>
+		<homePage>http://www.shuaji.net/android_soft/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProShuaJi</pageProcessor>
+		<searchUrl>http://www.shuaji.net/plus/search.php?kwtype=0!%!%!%keyword=*#*#*#!%!%!%searchtype=titlekeyword</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="161"><!-- get提交 -->
+		<name>应用之家</name>
+		<homePage>http://app.imobile.com.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProImobile</pageProcessor>
+		<searchUrl>http://app.imobile.com.cn/android/search/*#*#*#.html</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="162"><!-- get提交 -->
+		<name>当乐网</name>
+		<homePage>http://www.d.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProNgDCn</pageProcessor>
+		<searchUrl>http://ng.d.cn/channel/list.html?keyword=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<!-- 
+	<site id="165">
+		<name>下载天空</name>
+		<homePage>http://www.skycn.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProSkycn</pageProcessor>
+		<searchUrl></searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>-1</validation>网站没有安卓应用的搜索接口，搜索结果链接到百度
+	</site>
+	 -->
+	
+	<site id="168">
+		<name>360手机助手</name>
+		<homePage>http://zhushou.360.cn/list/index/cid/1,http://zhushou.360.cn</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro360</pageProcessor>
+		<searchUrl>http://zhushou.360.cn/search/index/?kw=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+
+<!-- dongjinkui -->
+	<site id="66"><!-- get提交 -->
+		<name>机锋论坛</name>
+		<homePage>http://apk.gfan.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.ApkGfan</pageProcessor>
+		<searchUrl>http://apk.gfan.com/search?q=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="67"><!-- get提交 -->
+		<name>飞鹏网</name>
+		<homePage>http://www.fpwap.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Fpwap</pageProcessor>
+		<searchUrl>http://www.fpwap.com/search/index.php?keyword=*#*#*#!%!%!%platform_id=3</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<!-- 无搜索接口
+	<site id="68">
+		<name>乐讯</name>
+		<homePage>http://www.lexun.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Lexun</pageProcessor>
+		<searchUrl></searchUrl>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>-1</validation>
+	</site>
+	 -->
+	<site id="69"><!-- get提交 -->
+		<name>软吧</name>
+		<homePage>http://www.ruan8.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Ruan8</pageProcessor>
+		<searchUrl>http://www.ruan8.com/search.php?keyword=*#*#*#!%!%!%ss=%CB%D1%CB%F7</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="71">
+		<name>apk8安卓网</name>
+		<homePage>http://www.apk8.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Apk8</pageProcessor>
+		<searchUrl>http://www.apk8.com/search.php?key=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="72"><!-- get提交 -->
+		<name>安卓网_anzhuo</name>
+		<homePage>http://www.anzhuo.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Anzhuo</pageProcessor>
+		<searchUrl>http://s.anzhuo.com/search.php?orderby=pubdate!%!%!%kwtype=0!%!%!%searchtype=title!%!%!%keyword=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="73"><!-- get提交 -->
+		<name>赚网</name>
+		<homePage>http://apk.zhuannet.com/soft/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Zhuannet</pageProcessor>
+		<searchUrl>http://apk.zhuannet.com/search/?keyword=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="74"><!-- get提交   选择的是标题搜索-->
+		<name>游民星空</name>
+		<homePage>http://shouyou.gamersky.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Gamersky</pageProcessor>
+		<searchUrl>http://soso.gamersky.com/cse/search?q=*#*#*#!%!%!%s=3068275339727451251!%!%!%stp=1!%!%!%nsid=1</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="75"><!-- get提交   选择的是标题搜索-->
+		<name>泡泡网</name>
+		<homePage>http://download.pcpop.com/shoujiruanjian/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Pcpop</pageProcessor>
+		<searchUrl>http://zhannei.baidu.com/cse/search?q=*#*#*#!%!%!%s=5667130173287269104!%!%!%stp=1!%!%!%nsid=0</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="77"><!-- get提交 -->
+		<name>雷电</name>
+		<homePage>http://soft.leidian.com/detail/index/soft_id/2455251</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Leidian</pageProcessor>
+		<searchUrl>http://www.leidian.com/s?q=*#*#*#!%!%!%ie=utf-8!%!%!%t=!%!%!%src=shouji_www</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="78"><!-- get提交 -->
+		<name>mobyWare[德国]</name>
+		<homePage>http://www.mobyware.net/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Mobyware</pageProcessor>
+		<searchUrl>http://www.mobuware.net/programList.php?view=global!%!%!%platform_id=18!%!%!%search=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="80"><!-- get提交 -->
+		<name>新锐下载</name>
+		<homePage>http://www.srui.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Srui</pageProcessor>
+		<searchUrl>http://so.srui.cn/cse/search?s=5754943238134558878!%!%!%q=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="81"><!-- get提交 -->
+		<name>软件盒子</name>
+		<homePage>http://www.itopdog.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Itopdog</pageProcessor>
+		<searchUrl>http://www.itopdog.cn/home.php?type=az!%!%!%ct=home!%!%!%ac=search!%!%!%q=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="84"><!-- get提交 -->
+		<name>多特</name>
+		<homePage>http://zhushou.2345.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Duote</pageProcessor>
+		<searchUrl>http://zhushou.2345.com/index.php?c=web!%!%!%d=doSearch!%!%!%so=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="85"><!-- get提交 -->
+		<name>小米商店</name>
+		<homePage>http://app.mi.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Mi</pageProcessor>
+		<searchUrl>http://app.mi.com/searchAll?keywords=*#*#*#!%!%!%typeall=phone</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="86"><!-- get提交 -->
+		<name>N多网</name>
+		<homePage>http://www.nduoa.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Nduoa</pageProcessor>
+		<searchUrl>http://www.nduoa.com/search?q=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<!-- 搜索接口搜不到网站应用 -->
+	<site id="87"><!-- get提交 -->
+		<name>安丰市场</name>
+		<homePage>http://www.anfone.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Anfone</pageProcessor>
+		<searchUrl>http://zhannei.baidu.com/cse/search?q=*#*#*#!%!%!%s=18346032762991061358!%!%!%stp=1!%!%!%nsid=0</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="88"><!-- get提交 -->
+		<name>魅族迷</name>
+		<homePage>http://www.meizumi.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Meizumi</pageProcessor>
+		<searchUrl>http://www.meizumi.com/search?q=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="91"><!-- get提交 -->
+		<name>安粉丝</name>
+		<homePage>http://www.anfensi.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Anfensi</pageProcessor>
+		<searchUrl>http://zhannei.baidu.com/cse/search?s=10366954480845088817!%!%!%q=*#*#*#!%!%!%imageField.x=67!%!%!%imageField.y=8</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="92"><!-- get提交 -->
+		<name>好主题</name>
+		<homePage>http://www.hzhuti.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Hzhuti</pageProcessor>
+		<searchUrl>http://www.hzhuti.com/plus/search_games.php?g=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="93"><!-- get提交 -->
+		<name>卓乐网</name>
+		<homePage>http://www.sjapk.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Sjapk</pageProcessor>
+		<searchUrl>http://www.sjapk.com/Search.asp?SmallID=1!%!%!%Key=*#*#*#!%!%!%typeid=1!%!%!%page=1</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="96"><!-- get提交 -->
+		<name>playcn爱游戏</name>
+		<homePage>http://www.play.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Play</pageProcessor>
+		<!-- http://so.5577.com/cse/search?q=*#*#*#!%!%!%nsid=1!%!%!%s=16334979357299200648  -->
+		<searchUrl>http://www.play.cn/game/search?keyword=*#*#*##gamelist</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="97"><!-- get提交 -->
+		<name>我机网</name>
+		<homePage>http://www.5577.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Www5577</pageProcessor>
+		<searchUrl>http://www.5577.com/search.asp?keyword=*#*#*#!%!%!%searchType=</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="98"><!-- get提交 -->
+		<name>新浪</name>
+		<homePage>http://app.sina.com.cn/app_index.php?f=p_dh</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Sina</pageProcessor>
+		<searchUrl>http://app.sina.com.cn/search.php?q=*#*#*#!%!%!%f=p_dh</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="99"><!-- get提交 -->
+		<name>zol手机应用</name>
+		<homePage>http://sj.zol.com.cn/mobilesoft/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Zol</pageProcessor>
+		<searchUrl>http://xiazai.zol.com.cn/search?wd=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="103"><!-- get提交 -->
+		<name>diyiapp</name>
+		<homePage>http://www.diyiapp.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Diyiapp</pageProcessor>
+		<searchUrl>http://www.diyiapp.com/search/?type=!%!%!%keyword=*#*#*#</searchUrl><!-- 搜索结果是js生成的 -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="105"><!-- get提交 -->
+		<name>UC应用商店</name>
+		<homePage>http://apps.uc.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Uc</pageProcessor>
+		<searchUrl>http://apps.uc.cn/search/*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="106"><!-- get提交 -->
+		<name>拇指玩</name>
+		<homePage>http://www.muzhiwan.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Muzhiwan</pageProcessor>
+		<searchUrl>http://www.muzhiwan.com/common/search?q=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="107"><!-- get提交 -->
+		<name>APK3</name>
+		<homePage>http://www.apk3.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Apk3</pageProcessor>
+		<searchUrl>http://zhannei.baidu.com/cse/search?s=18249145460023720161!%!%!%entry=1!%!%!%q=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="109"><!-- get提交 -->
+		<name>2265安卓游戏</name>
+		<homePage>http://www.2265.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Www2265</pageProcessor>
+		<searchUrl>http://www.2265.com/sea_*#*#*#.html</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="110"><!-- get提交 -->
+		<name>爱吾安卓</name>
+		<homePage>http://www.25az.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Www25az</pageProcessor>
+		<searchUrl>http://www.25az.com/game/?key=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="111"><!-- get提交 -->
+		<name>威搜游</name>
+		<homePage>http://vsoyou.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Vsoyou</pageProcessor>
+		<searchUrl>http://vsoyou.com/game/s0.htm?keyword=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="116"><!-- get提交 -->
+		<name>新云网络</name>
+		<homePage>http://www.newasp.net/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Newasp</pageProcessor>
+		<searchUrl>http://www.newasp.net/search.php?word=*#*#*#!%!%!%submit=yes</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="117"><!-- get提交 -->
+		<name>酷快市场</name>
+		<homePage>http://www.aawap.net/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Aawap</pageProcessor>
+		<searchUrl>http://aawap.net/aawap/search?searchName=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="119"><!-- get提交 -->
+		<name>应用酷</name>
+		<homePage>http://www.mgyapp.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Mgapp</pageProcessor>
+		<searchUrl>http://www.mgyapp.com/search/all/page1/?keyword=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="121"><!-- get提交 -->
+		<name>安卓商店</name>
+		<homePage>http://www.51vapp.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Www51vapp</pageProcessor>
+		<searchUrl>http://www.51vapp.com/market/apps/search.vhtml?ct=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="123"><!-- get提交 -->
+		<name>齐齐乐</name>
+		<homePage>http://www.77l.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Www77l</pageProcessor>
+		<searchUrl>http://www.77l.com/so/*#*#*#/</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	
+	<site id="125"><!-- get提交 -->
+		<name>亿软网</name>
+		<homePage>http://www.yruan.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Yruan</pageProcessor>
+		<searchUrl>http://www.yruan.com/search.php?keyword=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="127">
+		<name>安智网</name>
+		<homePage>http://www.anzhi.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Anzhi</pageProcessor>
+		<searchUrl>http://www.anzhi.com/search.php?keyword=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="128"><!-- get提交 -->
+		<name>快乐无极网</name>
+		<homePage>http://www.oyksoft.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Oyksoft</pageProcessor>
+		<searchUrl>http://www.oyksoft.com/search.asp?action=s!%!%!%sType=ResName!%!%!%keyword=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="130"><!-- get提交 -->
+		<name>历趣(谷歌电子市场)</name>
+		<homePage>http://www.liqucn.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Liqucn</pageProcessor>
+		<searchUrl>http://www.liqucn.com/search/download/*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="132"><!-- get提交 -->
+		<name>下载银行</name>
+		<homePage>http://www.downbank.cn</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Downbank</pageProcessor>
+		<searchUrl>http://www.downbank.cn/search.asp?word=*#*#*#!%!%!%m=2!%!%!%searchbtn2=%BF%AA%CA%BC%CB%D1%CB%F7</searchUrl>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="133"><!-- get提交 -->
+		<name>泡椒网手机软件下载</name>
+		<homePage>http://www.paojiao.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Paojiao</pageProcessor>
+		<searchUrl>http://www.paojiao.cn/search__*#*#*#_1.html</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="134"><!-- get提交 -->
+		<name>当乐安致</name>
+		<homePage>http://www.d.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.D</pageProcessor>
+		<searchUrl>http://android.d.cn/search/app?keyword=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="135"><!-- get提交 -->
+		<name>7匣子</name>
+		<homePage>http://www.7xz.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Www7xz</pageProcessor>
+		<searchUrl>http://www.7xz.com/ng/search_*#*#*#_0_0_rate_1.html</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="136"><!-- get提交 -->
+		<name>必杀客</name>
+		<homePage>http://www.bkill.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Bkill</pageProcessor>
+		<searchUrl>http://www.bkill.com/d/search.php?searchType=!%!%!%mod=do!%!%!%n=1!%!%!%keyword=*#*#*#</searchUrl>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="138"><!-- get提交 -->
+		<name>豆豆软件下载站</name>
+		<homePage>http://www.ddxia.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Ddxia</pageProcessor>
+		<searchUrl>http://www.baidu.com/baidu?word=*#*#*#+android!%!%!%ct=2097152!%!%!%si=www.ddxia.com</searchUrl>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="142"><!-- get提交 -->
+		<name>天空软件站</name>
+		<homePage>http://sj.skycn.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Skycn</pageProcessor>
+		<searchUrl>http://sj.skycn.com/s.php?wd=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding><!-- http://www.skycn.com/s.php?q=*#*#*#!%!%!%st=0 -->
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+    <site id="145">
+		<name>搜应用</name>
+		<homePage>http://www.souapp.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProSoapp</pageProcessor>
+		<searchUrl>http://www.souapp.com</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>urf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="146">
+        <name>苹果资讯</name>
+        <homePage>http://ifan.178.com/</homePage>
+        <pageProcessor>com.appCrawler.pagePro.PageProIfan178</pageProcessor>
+        <searchUrl>http://www.baidu.com/s?ie=UTF-8&amp;wd=*#*#*#%20site:shouyou.178.com</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+        <method>GET</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>utf-8</pageEncoding>
+        <validation>0</validation>
+    </site>
+    <site id="148">
+        <name>天极网</name>
+        <homePage>http://mydown.yesky.com</homePage>
+        <pageProcessor>com.appCrawler.pagePro.PageProYesky</pageProcessor>
+        <searchUrl>http://so.yesky.com/cse/search?s=8655205689349015306&amp;entry=1&amp;q=*#*#*#&amp;nsid=4</searchUrl><!-- http://so.yesky.com/cse/search?s=8655205689349015306&amp;entry=1&amp;q=*#*#*#-->
+        <method>GET</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>utf-8</pageEncoding>
+        <validation>0</validation>
+    </site>
+
+	<site id="150">
+		<name>绿色软件站</name>
+		<homePage>http://www.downg.com/default.html</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProDowng</pageProcessor>
+		<searchUrl>http://search.downg.com/search.asp?action=s&amp;sType=ResName&amp;catalog=&amp;keyword=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="152">
+		<name>挖宝</name>
+		<homePage>http://www.wapmy.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProWabao</pageProcessor>
+		<searchUrl>http://www.wapmy.cn/</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>		
+		<pageEncoding>urf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="153">
+		<name>APP导航</name>
+		<homePage>http://www.appdh.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Appdh</pageProcessor>
+		<searchUrl>http://www.appdh.com/keyword/?s=*#*#*#</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>urf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+
+	<site id="169">
+		<name>手游世界</name>
+		<homePage>http://android.173sy.com</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Android173Sy</pageProcessor>
+		<searchUrl>http://android.173sy.com/games/search.php?key=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="171">
+		<name>oppo手机软件</name>
+		<homePage>http://store.nearme.com.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.OppoApkPagePro</pageProcessor>
+		<searchUrl>http://store.oppomobile.com/search/do.html?keyword=*#*#*#!%!%!%nav=index</searchUrl><!-- 其中的变量用*#*#*#代替 --><!-- !%!%!%代替& -->
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="172">
+		<name>琵琶网</name>
+		<homePage>http://www.pipaw.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PipaPagePro</pageProcessor>
+		<searchUrl>http://wy.pipaw.com/gamelist-all-1.html?keyword=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	<site id="173">
+		<name>优亿市场[中国]</name>
+		<homePage>http://partner.eoemarket.com/qq/bibei/index/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Eoemarket</pageProcessor>
+		<searchUrl>http://partner.eoemarket.com/qq/search/index/?kw=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	
+	<site id="174">
+		<name>九游</name>
+		<homePage>http://www.9game.cn/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Www9game</pageProcessor>
+		<searchUrl>http://www.9game.cn/search/?keyword=*#*#*#!%!%!%platformId=2</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+</sites>
+
+
+
+	<!--
+	<site id="3">
+		<name>安友汇[中国]</name>
+		<homePage>http://www.anyouhui.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAnYouHui</pageProcessor>
+		<searchUrl>http://www.anyouhui.com/search/*#*#*#/</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>-1</validation>	 服务器挂掉 
+	</site>-->
+	<!-- 网挂了
+	<site id="11">
+		<name>手机软件园[中国]</name>
+		<homePage>http://www.sjrjy.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProSjrjy</pageProcessor>
+		<searchUrl>http://www.sjrjy.com/search.php?allsite=1&amp;chid=1&amp;searchword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+ 	-->
+ 		<!-- 网站挂掉 
+	<site id="26">
+		<name>摸鱼网[中国]</name>
+		<homePage>http://www.mooyy.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProMooyy</pageProcessor>
+		<searchUrl>http://www.mooyy.com/plus/search.php?kwtype=0&amp;searchtype=titlekeyword&amp;typeid=2&amp;keyword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	-->
+		<!--  商店中的没有应用
+	<site id="28">
+		<name>蘑菇市场[中国]</name>
+		<homePage>http://www.mogustore.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProMoguStore</pageProcessor>
+		<searchUrl>http://www.mogustore.com/search.html?keyword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	-->
+		
+	<!-- 与36重复
+	<site id="166">
+		<name>SIS软件</name>
+		<homePage>http://d.958shop.com/soft/193/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProD958shop</pageProcessor>
+		<searchUrl>http://zhannei.958shop.com/cse/search?q=*#*#*#!%!%!%s=4662169342298144153!%!%!%nsid=3</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation> 网站没有安卓应用的搜索接口，搜索结果链接到百度 
+	</site>
+	-->
+		
+	<!--  网站挂掉
+	<site id="41">
+		<name>安极市场[中国]</name>
+		<homePage>http://apk.angeeks.com/index.jsp</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAngeeks</pageProcessor>
+		<searchUrl>http://apk.angeeks.com/search?keywords=*#*#*#&amp;x=0&amp;y=0</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	-->
+		
+	<!--
+	<site id="43">
+		<name>安贝市场[中国]</name>
+		<homePage>http://app.aatouch.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAatounch</pageProcessor>
+		<searchUrl>http://app.youxibaba.cn/android.php?ac=search&amp;keyword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>-1</validation> 服务器挂掉 
+	</site>
+	-->
+	
+	    
+    <!-- get
+	<site id="163">
+		<name>天极手机软件下载</name>
+        <homePage>http://mydown.yesky.com/</homePage>
+        <pageProcessor>com.appCrawler.pagePro.PageProYesky</pageProcessor>
+        <searchUrl>http://so.yesky.com/cse/search?s=8655205689349015306&amp;entry=1&amp;q=*#*#*#</searchUrl>
+        <method>GET</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>utf-8</pageEncoding>
+        <validation>0</validation>
+	</site> -->
+	
+		<!-- 网站打不开
+	<site id="129">
+		<name>365下载吧</name>
+		<homePage>http://www.365xz8.cn</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Www365xz8</pageProcessor>
+		<searchUrl>http://www.365xz8.cn/soft/search.asp?act=topic!%!%!%keyword=*#*#*#</searchUrl>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	 -->
+	 
+	 	
+	<!-- 与71重复
+	<site id="158">
+        <name>APK小游戏</name>
+        <homePage>http://www.apkxyx.com</homePage>
+        <pageProcessor>com.appCrawler.pagePro.PageProApk8</pageProcessor>
+        <searchUrl>http://www.apk8.com/search.php?key=*#*#*#</searchUrl>
+        <method>get</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>urf-8</pageEncoding>
+        <validation>0</validation>
+    </site>
+     -->
+     	<!-- 与93重复 
+	<site id="149">
+		<name>卓乐网</name>
+		<homePage>http://www.sjapk.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProSjapk</pageProcessor>
+		<searchUrl>http://www.sjapk.com/Search.asp?SmallID=1!%!%!%Key=*#*#*#!%!%!%typeid=1!%!%!%page=1</searchUrl>
+		<method>GET</method>
+		<urlEncoding>gb2312</urlEncoding>
+		<pageEncoding>gb2312</pageEncoding>
+		<validation>0</validation>
+	</site>
+	-->
+	
+		<!--  与81重复
+	<site id="155">
+		<name>软件合子</name>
+		<homePage>http://www.itopdog.cn</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProItopdog</pageProcessor>
+		<searchUrl>http://www.itopdog.cn/home.php?type=az!%!%!%ct=home!%!%!%ac=search!%!%!%q=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>urf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	-->
+		<!-- 与75重复
+	<site id="144">
+        <name>泡泡手机网</name>
+        <homePage>http://download.pcpop.com/</homePage>
+        <pageProcessor>com.appCrawler.pagePro.PageProPcpop</pageProcessor>
+        <searchUrl>http://zhannei.baidu.com/cse/search?s=5667130173287269104&amp;q=*#*#*#&amp;kwtype=0</searchUrl>
+        <method>GET</method>
+        <urlEncoding>utf-8</urlEncoding>
+        <pageEncoding>gb2312</pageEncoding>
+        <validation>0</validation>
+    </site>
+     -->
+	<!-- 网站无法访问
+	<site id="76">
+		<name>格子啦</name>
+		<homePage>http://www.gezila.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Gezila</pageProcessor>
+		<searchUrl>http://www.gezila.com/search?t=android!%!%!%q=*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	 -->
+	
+		<!-- 
+	<site id="61">
+		<name>微游中国</name> 原来好使，已经死掉 
+		<homePage>http://www.9vv.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro9vv</pageProcessor>
+		<searchUrl>http://www.9vv.com/search.php?key=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>-1</validation>
+	</site>
+	-->
+		
+	<!-- 与44重复
+	<site id="124">
+		<name>华为智汇云[中国]</name>
+		<homePage>http://appstore.huawei.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.Huawei</pageProcessor>
+		<searchUrl>http://appstore.huawei.com/search/*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	 -->
+		
+	<!-- 与128重复
+	<site id="164">
+		<name>快乐软件下载</name>
+		<homePage>http://www.oyksoft.com/list/s_258_1.html</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProYesky</pageProcessor>
+		<searchUrl></searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>-1</validation>网站没有安卓应用的搜索接口，搜索结果链接到百度 
+	</site>
+	-->
+		<!-- 网站打不开 
+	<site id="54">
+		<name>3G门户[中国]</name>
+		<homePage>http://www.goforandroid.com/zh/index.html</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro3g</pageProcessor>
+		<searchUrl>http://www.goforandroid.com/zh/index.html</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	-->
+	
+		
+	<!--  非手机应用商店
+	<site id="56"> 
+		<name>pchome[中国]</name>
+		<homePage>http://www.pchome.net/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProAnqu</pageProcessor>
+		<searchUrl>http://api.anqu.com/search/index/?keyword=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	-->
+	<!-- 网站只有首页存在，没有发现apk应用 
+	<site id="7">
+		<name>搜狐应用中心[中国]</name>
+		<homePage>http://app.sohu.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PageProSoHu</pageProcessor>
+		<searchUrl>http://app.sohu.com/search/?words=*#*#*#</searchUrl>
+		<method>GET</method>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	-->
+	
+		<!--
+	<site id="90">
+		<name>91手机门户</name>
+		<homePage>http://apk.91.com/</homePage>
+		<pageProcessor>com.appCrawler.pagePro.PagePro91</pageProcessor>
+		<searchUrl>http://apk.91.com/soft/android/search/1_5_0_0_*#*#*#</searchUrl>
+		<urlEncoding>utf-8</urlEncoding>
+		<pageEncoding>utf-8</pageEncoding>
+		<validation>0</validation>
+	</site>
+	  -->
+	  

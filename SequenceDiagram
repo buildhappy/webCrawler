@@ -1,0 +1,39 @@
+@startuml 
+ title 爬虫时序图
+ participant UrlGenerator as UrlGenerator
+ participant Scheduler as Scheduler
+ participant PageDownloader as PageDownloader
+ participant PageProcessor as PageProcessor
+ participant Pipeline as Pipeline
+ participant Result_Persist as Result_Persist
+ participant Apk_Downloader as Apk_Downloader
+ participant DB_Option as DB_Option
+ database asec_app as asec_app
+ database crawler_result as crawler_result
+ 
+ UrlGenerator->Scheduler:1.send search_url
+ PageDownloader->PageProcessor:2.download search_page
+ PageProcessor->PageProcessor:3.page analysis
+ PageProcessor->Scheduler:4.storage apps_detail_url
+ Scheduler->PageDownloader:5.post apps_detail_page_url
+ PageDownloader->PageProcessor:6.download app_detail_page(app详细的介绍页面)
+ PageProcessor->PageProcessor:7.page analysis
+ PageProcessor->Pipeline:8.post result_items(app的详细信息)
+ Pipeline->Pipeline:9.data localization(数据转化成本地对象)
+ Pipeline->DB_Option:10.查询数据库
+ DB_Option->asec_app:11.查询该app是否存在DB中
+ alt 12.result_items in asec_app?
+ 	Result_Persist->crawler_result:12.1.storage crawler result
+ else
+ 	PageProcessor->Pipeline:12.2.dispose result_items(app的详细信息)
+ 	Pipeline->DB_Option:12.2.1.调用DB_Option模块存数据
+ 	DB_Option->asec_app:12.2.2.storage result_items into DB
+ 	Result_Persist->crawler_result:12.2.3.storage crawler_result into DB
+ end
+ Scheduler->:13.crawl done
+ 
+ Apk_Downloader->Result_Persist:14.request apk_download_url
+ Result_Persist->crawler_result:15.get apk_download_url
+ Result_Persist->Apk_Downloader:16.post apk_download_url
+ Apk_Downloader->:17.download done
+ @enduml
